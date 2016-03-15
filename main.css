@@ -1,0 +1,35 @@
+body {
+  font-family: 'Verdana', Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  background-color: lightblue;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article {
+  padding: 5px;
+  margin: 2% 0;
+  border: 1px black solid;
+  flex-basis: 25%;
+  background-color: white;
+  box-shadow: 2px 2px 10px #658D9A;
+}
+
+h1 {
+  font-size: 1.25em;
+}
+
+article > p {
+  font-size: .8em;
+}
+
+select {
+  border: 1px black solid;
+  box-shadow: 1px 1px 10px #658D9A;
+  margin: 2%;
+}
